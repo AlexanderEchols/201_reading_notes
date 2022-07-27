@@ -1,0 +1,6 @@
+# **Day 1:** 
+***System Restore: who’s doing em, and why?***
+
+System restore is one of the most useful utilities when trying to fix major problems in windows. Basically, the System Restore allows one to revert a previous software, registry, and driver configuration known as a restore point. As most windows problems involve issues w/ at least one of those aspects of your OS, this tool is good to use early on in the troubleshooting process.
+
+It is very easy to use and (on average) take anywhere from 10 - 30 minutes. Simply go to the Control Panel > System > system protection > click System Restore > next > select the time you wish to restore too > click next > confirm > finish (I would advise to always click the “scan for affected programs” box, to see what all is changed). Once started, system restore can’t be interrupted. If running from safe mode then the changes to your computer can’t be undone. Will have to restart so close anything you have running. Upon completion of the system restore, be sure to go back and check the issue was resolved. If the problem is not solved and you have an earlier date to choose from, do that. If not then continue down the troubleshooting methodology. If the System Restore caused additional problems, you can undo a system restore in windows.
