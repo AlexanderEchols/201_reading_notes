@@ -1,6 +1,7 @@
 ## **Day 2:** 
 
 ***GIT/VSCode what are they and why?***
+
 GitHub = code hosting platform for version control and collaboration. 
 
 VSCode = a lightweight, powerful source code editor. Comes w/ built-in support for JavaScript, TypeScript and Node.js also a bunch of extensions for langage, runtime, etc. 
