@@ -1,5 +1,7 @@
-Day 08(wed)
-Windows registry: What can you do?
+# **Day 08(wed)**
+
+***Windows registry: What can you do?***
+
 Windows registry is a collection of databases. With both system-wide(applies to all users) nand user-specific settings stored in the C:\Windows\System32\Config\  directory. And the user-specific keys are stored in a NTUSER.dat file (which can’t be edited directly) located at C:\Windows\Users\Name directory. One never needs to deal with these files. When you sign into Windows the settings are loaded from these files into memory. A launched program has the ability to check the registry stored in memory to find its configuration settings. If you change a programs settings, those same settings are changed in the registry. Upon sign out and shutdown of your machine, the state of the machine is saved to the disk. 
 
 There are folder-like “keys and “values” that are contained inside the registry, those “keys” can contain numbers, text, etc. The registry is made up of multiple groups(called “hives”) of keys and values (I.E. HKEY_CURRENT_USER and HKEY_LOCAL_MACHINE) 
